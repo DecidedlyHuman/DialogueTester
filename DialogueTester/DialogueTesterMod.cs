@@ -32,11 +32,6 @@ namespace DialogueTester
             this.Monitor.Log(_commandUsage, LogLevel.Warn);
         }
 
-        private void LoadDialogue()
-        {
-            
-        }
-
         private void TestDialogue(string command, string[] args)
         { // TODO: Obviously, clean this up and modularise it heavily. It's currently very bad.
             if (!Context.IsWorldReady) // We only want to do this if we're actually in-game. May not be necessary.
